@@ -1,6 +1,8 @@
 function firstChar(text) {
   // your code here
-	return text.charAt(0);
+	let ans = text.charAt(0);
+	ans = `'` + ans + `'`;
+	return ans;
 	
 }
 
